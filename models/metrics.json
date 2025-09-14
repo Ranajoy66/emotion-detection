@@ -1,0 +1,69 @@
+{
+    "accuracy": 0.9838247706548962,
+    "report": {
+        "Anger": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 55.0
+        },
+        "Anxiety": {
+            "precision": 0.8864774624373957,
+            "recall": 0.69140625,
+            "f1-score": 0.7768836869056328,
+            "support": 768.0
+        },
+        "Depression": {
+            "precision": 0.760342368045649,
+            "recall": 0.6919831223628692,
+            "f1-score": 0.724553950722175,
+            "support": 3081.0
+        },
+        "Normal": {
+            "precision": 0.9923531356455995,
+            "recall": 0.999290759610931,
+            "f1-score": 0.9958098644877,
+            "support": 138176.0
+        },
+        "Personality disorder": {
+            "precision": 0.9090909090909091,
+            "recall": 0.46296296296296297,
+            "f1-score": 0.6134969325153374,
+            "support": 216.0
+        },
+        "Sadness": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 116.0
+        },
+        "Suicidal": {
+            "precision": 0.7223105458399576,
+            "recall": 0.639906103286385,
+            "f1-score": 0.6786158824993777,
+            "support": 2130.0
+        },
+        "accuracy": 0.9838247706548962,
+        "macro avg": {
+            "precision": 0.6100820601513587,
+            "recall": 0.49793559974616397,
+            "f1-score": 0.5413371881614605,
+            "support": 144542.0
+        },
+        "weighted avg": {
+            "precision": 0.9815673056763408,
+            "recall": 0.9838247706548962,
+            "f1-score": 0.9824410095080873,
+            "support": 144542.0
+        }
+    },
+    "classes": [
+        "Anger",
+        "Anxiety",
+        "Depression",
+        "Normal",
+        "Personality disorder",
+        "Sadness",
+        "Suicidal"
+    ]
+}
